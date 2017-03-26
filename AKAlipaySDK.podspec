@@ -30,13 +30,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AKAlipaySDK/Classes/**/*'
+  s.source_files = 'AKAlipaySDK/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'AKAlipaySDK' => ['AKAlipaySDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'CFNetwork', 'CoreGraphics', 'CoreMotion', 'CoreTelephony', 'CoreText', 'QuartzCore', 'SystemConfiguration'
+  s.libraries = 'c++', 'z'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.vendored_frameworks = 'AKAlipaySDK/Classes/AlipaySDK.framework'
+  s.resource = 'AKAlipaySDK/Classes/AlipaySDK.bundle'
 end

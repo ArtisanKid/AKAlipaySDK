@@ -7,6 +7,7 @@
 //
 
 #import "AKAppDelegate.h"
+#import <AKAlipaySDK/AlipaySDK.h>
 
 @implementation AKAppDelegate
 

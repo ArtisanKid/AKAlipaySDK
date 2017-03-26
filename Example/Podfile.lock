@@ -1,0 +1,16 @@
+PODS:
+  - AKAlipaySDK (0.1.0)
+
+DEPENDENCIES:
+  - AKAlipaySDK (from `../`)
+
+EXTERNAL SOURCES:
+  AKAlipaySDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AKAlipaySDK: 1aa6fac283a1b3c7b974e82815093b9a5cf0c7e0
+
+PODFILE CHECKSUM: c3e75d1f5fb1d2b6833f50b74dd25b5a3ea1517e
+
+COCOAPODS: 1.1.1
