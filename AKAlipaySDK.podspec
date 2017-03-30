@@ -42,5 +42,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.vendored_frameworks = 'AKAlipaySDK/Classes/AlipaySDK.framework'
+  s.vendored_libraries = 'AKAlipaySDK/Classes/libAPOpenSdk.a'
   s.resource = 'AKAlipaySDK/Classes/AlipaySDK.bundle'
 end
