@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'AKAlipaySDK/Classes/**/*.{h,m}'
+  s.preserve_paths = 'AKWeiboSDK/Classes/*.{txt,md,doc,docx,pdf}'
   
   # s.resource_bundles = {
   #   'AKAlipaySDK' => ['AKAlipaySDK/Assets/*.png']
